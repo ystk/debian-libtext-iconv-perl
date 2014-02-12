@@ -1,3 +1,40 @@
+libtext-iconv-perl (1.7-5) unstable; urgency=low
+
+  * Fix typo in extended description
+    Closes: 635635
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Mon, 28 Nov 2011 14:59:19 +1100
+
+libtext-iconv-perl (1.7-4.1) unstable; urgency=high
+
+  * NMU
+  * Pass -d to dh_perl to avoid unnecessary dependency on perl.
+    Closes: #639149
+
+ -- Joey Hess <joeyh@debian.org>  Sat, 19 Nov 2011 17:52:50 -0400
+
+libtext-iconv-perl (1.7-4) unstable; urgency=low
+
+  * Don't pass "-Zbzip2 -z9" to dpkg-deb
+    Refer to Bug#633782
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Sun, 17 Jul 2011 13:18:58 +1000
+
+libtext-iconv-perl (1.7-3) unstable; urgency=low
+
+  [ Steve McIntyre ]
+  * Update to modern perl module packaging standards (Closes: #633954)
+  * Configure perl C compilation for cross builds (Closes: 633960)
+
+  [ Anibal Monsalve Salazar ]
+  * Source format is 3.0 (quilt)
+  * Standards-Version is 3.9.2
+  * Fix debhelper-but-no-misc-depends
+  * Fix debhelper-overrides-need-versioned-build-depends
+  * Fix copyright-refers-to-symlink-license
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Sat, 16 Jul 2011 13:18:09 +1000
+
 libtext-iconv-perl (1.7-2) unstable; urgency=low
 
   * DH compatibility level is 7
